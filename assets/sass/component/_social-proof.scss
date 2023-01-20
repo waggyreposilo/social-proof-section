@@ -1,0 +1,41 @@
+.social-proof{
+    &__title{
+        color: $primary-magenta;
+        font-weight: $bold;
+        font-size: 2rem;
+        margin:0 3rem;
+        margin-block-end: 1rem;
+    }
+
+    &__description{
+        color: $neutral-magenta-dark;
+        text-align:center;
+        font-weight: $medium;
+        font-size: 15px;
+        line-height: 1.3rem;
+        margin: 0 1rem;
+    }
+
+    &__reviews{
+        display:flex;
+        flex-direction: column;
+        gap:1rem;
+        width:100%;
+        padding: 2rem 1rem;
+    }
+
+    &__review{
+        background:$neutral-magenta-light;
+        color:$primary-magenta;
+        font-weight: $bold;
+        padding:1rem;
+        border-radius: 1rem;
+    }
+
+    &__review > .stars{
+        padding-bottom: .5rem;
+    }
+
+    
+
+}

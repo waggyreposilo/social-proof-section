@@ -1,0 +1,43 @@
+.quotes{
+    display:flex;
+    flex-direction:column;
+    gap: 1rem;
+    padding:0 1rem;
+}
+
+.quote-box{
+    background: $primary-magenta;
+    color: $neutral-white;
+    border-radius: .9rem;
+    padding: 2rem;
+
+    .buyer{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        padding-bottom: 1.3rem;
+
+        img{
+            border-radius:50%;
+            height: 15%;
+            width: 15%;
+        }
+    }
+
+    .quote{
+        text-align: left;
+        line-height: 1.3rem;
+    }
+}
+
+
+.name{
+    font-weight: $bold;
+    padding-bottom: .3rem;
+}
+
+.status{
+    color:$primary-pink;
+    font-weight: $medium;
+}

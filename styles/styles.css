@@ -1,0 +1,226 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+body {
+  background: hsl(0deg, 0%, 100%);
+  font-family: "League Spartan", sans-serif;
+  font-size: 0.9375rem;
+  text-align: center;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding-block: 3rem;
+}
+
+.social-proof__title {
+  color: hsl(300deg, 43%, 22%);
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0 3rem;
+  -webkit-margin-after: 1rem;
+          margin-block-end: 1rem;
+}
+.social-proof__description {
+  color: hsl(303deg, 10%, 53%);
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.3rem;
+  margin: 0 1rem;
+}
+.social-proof__reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+.social-proof__review {
+  background: hsl(300deg, 24%, 96%);
+  color: hsl(300deg, 43%, 22%);
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.social-proof__review > .stars {
+  padding-bottom: 0.5rem;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.quote-box {
+  background: hsl(300deg, 43%, 22%);
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 0.9rem;
+  padding: 2rem;
+}
+.quote-box .buyer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1.3rem;
+}
+.quote-box .buyer img {
+  border-radius: 50%;
+  height: 15%;
+  width: 15%;
+}
+.quote-box .quote {
+  text-align: left;
+  line-height: 1.3rem;
+}
+
+.name {
+  font-weight: 700;
+  padding-bottom: 0.3rem;
+}
+
+.status {
+  color: hsl(333deg, 80%, 67%);
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 65em) {
+  .container {
+    padding: 6rem;
+    display: grid;
+    grid-template-rows: 0.7fr 1fr;
+    gap: 1rem;
+  }
+  .container .title-and-reviews {
+    display: flex;
+    flex-direction: row;
+  }
+  .social-proof__title {
+    text-align: left;
+    font-size: 64px;
+    margin-left: 1rem;
+  }
+  .social-proof__description {
+    text-align: left;
+    font-size: 18px;
+    margin-right: 9rem;
+  }
+  .social-proof__review {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    align-items: center;
+    width: 24.6rem;
+  }
+  .social-proof__review .stars {
+    padding: 0;
+  }
+  .report-guru {
+    position: relative;
+    left: 15%;
+  }
+  .best-tech {
+    position: relative;
+    left: 27%;
+  }
+  .quotes {
+    display: flex;
+    flex-direction: row;
+  }
+  .quote-box {
+    max-height: 13.5rem;
+  }
+  .irene {
+    position: relative;
+    top: 7.5%;
+  }
+  .anne {
+    position: relative;
+    top: 15.2%;
+  }
+}/*# sourceMappingURL=styles.css.map */

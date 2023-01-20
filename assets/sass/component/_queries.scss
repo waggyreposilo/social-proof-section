@@ -1,0 +1,65 @@
+@media only screen and (min-width:65em) {
+    .container{
+        padding:6rem;
+        display:grid;
+        grid-template-rows: .7fr 1fr;
+        gap:1rem;
+        .title-and-reviews{
+            display:flex;
+            flex-direction: row;
+        }
+    }
+    .social-proof{
+        &__title{
+            text-align: left;
+            font-size:64px;
+            margin-left:1rem;
+        }
+
+        &__description{
+            text-align:left;
+            font-size:18px;
+            margin-right:9rem;
+        }
+
+        &__review{
+            display:flex;
+            flex-direction: row;
+            gap:0.8rem;
+            align-items:center;
+            width: 24.6rem;
+            .stars{
+                padding:0;
+            } 
+        }
+    }
+
+    .report-guru{
+        position: relative;
+        left:15%;
+    }
+
+    .best-tech{
+        position: relative;
+        left:27%;
+    }
+    
+    .quotes{
+        display:flex;
+        flex-direction: row;
+    }
+
+    .quote-box{
+        max-height:13.5rem;
+    }
+
+    .irene{
+        position:relative;
+        top:7.5%;
+    }
+
+    .anne{
+        position:relative;
+        top:15.2%;
+    }
+}
